@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uñas bellas</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   
+    <div class="header">
+        <div class="logo">
+            <img src="logo.png" alt="" height="70">
+            <h1>Tienda Uñas Bellas</h1>
+        </div>
+        <div class="barra">
+            <ul>
+                <li><a href="#">Nuevo</a></li>
+                <li><a href="#">Registro</a></li>
+                <li><a href="#">Combos</a></li>
+              </ul>
+        </div> 
+    </div>
+    <h2>Servicios</h2>
+    <table id="tabla1">
+        <tr class="Encabezado">
+          <th>Código</th>
+          <th>Descrición</th>
+          <th>Costo</th>
+          <th>Acabado</th>
+          <th>Multicolor</th>
+          <th>Aplica combo</th>
+          <th>Imagen</th>
+        </tr>
+        <tr class="Fila">
+          <td> 0000-0000-0001</td>
+          <td> No se encotro una descripcion</td>
+          <td> 2000$</td>
+          
+           <!-- esto debe ser un combobox-->
+          <td>
+            <select name="Acabado" id="acabado">
+              <option value="Resina">Resina</option>
+              <option value="Plastico">Plastico</option>
+              <option value="Natural">Natural</option>
+            </select>
+
+          </td>
+           <!-- Radio button-->
+          <td>
+              
+            <input type="radio" id="radioSi" name="multicolor" value="si">
+            <label for="radioSi">Si</label>
+            <input type="radio" id="radioNo" name="multicolor" value="no">
+            <label for="radioNo">No</label>           
+        
+        </td>
+           <!-- Radio button-->
+          <td>
+            <input type="radio" id="radioSi" name="combo" value="si">
+            <label for="radioSi">Si</label>
+            <input type="radio" id="radioNo" name="combo" value="no">
+            <label for="radioNo">No</label> </td>
+          <!-- Imagen -->
+          <td><img src="unias_resina.png" alt="" width="128"></td>
+        </tr> 
+        <tr class="Fila">
+            <td> 0000-0000-0002</td>
+            <td> No se encotro una descripcion</td>
+            <td> 1000$</td>
+            
+             <!-- esto debe ser un combobox-->
+            <td>
+              <select name="Acabado" id="acabado">
+                <option value="Resina">Resina</option>
+                <option value="Plastico">Plastico</option>
+                <option value="Natural">Natural</option>
+              </select>
+  
+            </td>
+             <!-- Radio button-->
+            <td>
+                
+              <input type="radio" id="radioSi" name="multicolor" value="si">
+              <label for="radioSi">Si</label>
+              <input type="radio" id="radioNo" name="multicolor" value="no">
+              <label for="radioNo">No</label>           
+          
+          </td>
+             <!-- Radio button-->
+            <td>
+              <input type="radio" id="radioSi" name="combo" value="si">
+              <label for="radioSi">Si</label>
+              <input type="radio" id="radioNo" name="combo" value="no">
+              <label for="radioNo">No</label> </td>
+            <!-- Imagen -->
+            <td><img src="unias_naturales.jpg" alt="" width="128"></td>
+          </tr> 
+          <tr class="Fila">
+            <td> 0000-0000-0003</td>
+            <td> No se encotro una descripcion</td>
+            <td> 1500$</td>
+            
+             <!-- esto debe ser un combobox-->
+            <td>
+              <select name="Acabado" id="acabado">
+                <option value="Resina">Resina</option>
+                <option value="Plastico">Plastico</option>
+                <option value="Natural">Natural</option>
+              </select>
+  
+            </td>
+             <!-- Radio button-->
+            <td>
+                
+              <input type="radio" id="radioSi" name="multicolor" value="si">
+              <label for="radioSi">Si</label>
+              <input type="radio" id="radioNo" name="multicolor" value="no">
+              <label for="radioNo">No</label>           
+          
+          </td>
+             <!-- Radio button-->
+            <td>
+              <input type="radio" id="radioSi" name="combo" value="si">
+              <label for="radioSi">Si</label>
+              <input type="radio" id="radioNo" name="combo" value="no">
+              <label for="radioNo">No</label> </td>
+            <!-- Imagen -->
+            <td><img src="unias_plastico.jpg" alt="" width="128"></td>
+          </tr> 
+      
+    </table>
+</body>
+</html>

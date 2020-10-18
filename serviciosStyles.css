@@ -1,0 +1,11 @@
+.registro{
+    background-color: chocolate;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 4%;
+    padding-right:4%;
+    border-radius: 6px;
+    align-items: center;
+    
+}
